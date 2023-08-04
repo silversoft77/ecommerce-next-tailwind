@@ -1,0 +1,17 @@
+.main {
+    text-align: center;
+    margin-top: 10rem;
+  }
+  input {
+    height: 2rem;
+    width: 20rem;
+    border: 1px solid #c9c9c9;
+    font-size: 1.2em;
+    padding: 0.3rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+  .length {
+    font-size: 3.5em;
+  }
+  
