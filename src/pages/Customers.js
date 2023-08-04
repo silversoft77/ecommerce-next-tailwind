@@ -7,7 +7,7 @@ import useFetch from '../hooks/UseFetch';
 
 export default function Customers() {
     const [loggedIn, setLoggedIn] = useContext(LoginContext);
-    //const [customers, setCustomers] = useState();
+    const [customers, setCustomers] = useState();
     const [show, setShow] = useState(false);
 
     function toggleShow() {
