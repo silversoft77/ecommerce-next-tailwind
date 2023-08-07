@@ -6,9 +6,9 @@ import NotFound from '../components/NotFound';
 import useFetch from '../hooks/UseFetch';
 
 export default function Definition() {
-    //const [word, setWord] = useState();
-    //const [notFound, setNotFound] = useState(false);
-    //const [error, setError] = useState(false);
+    const [word, setWord] = useState();
+    const [notFound, setNotFound] = useState(false);
+    const [error, setError] = useState(false);
     let { search } = useParams();
 
     const location = useLocation();

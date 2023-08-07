@@ -8,7 +8,6 @@ export default function AddCustomer(props) {
     const [show, setShow] = useState(props.show);
 
     const handleClose = () => setShow(false);
-    const handleShow = () => setShow(true);
 
     return (
         <>
@@ -69,20 +68,6 @@ export default function AddCustomer(props) {
                         </div>
                     </form>
                 </Modal.Body>
-                <Modal.Footer>
-                    <button
-                        className="bg-slate-400 hover:bg-slate-500 text-white font-bold py-2 px-4 rounded"
-                        onClick={props.toggleShow}
-                    >
-                        Close
-                    </button>
-                    <button
-                        className="bg-purple-600 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded"
-                        form="editmodal"
-                    >
-                        Add
-                    </button>
-                </Modal.Footer>
             </Modal>
         </>
     );
